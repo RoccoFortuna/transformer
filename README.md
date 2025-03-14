@@ -58,6 +58,10 @@ configs = [
 ## Results
 The model appears to be too powerful for the selected dataset, as the training loss keeps diminishing while the validation loss reaches its minimum at epoch 4 before increasing, showing sings of overfitting.
 
+Sample training curve:
+
+<img src="https://github.com/user-attachments/files/19247372/loss_plot_6_heads8_layers3_ff1024_embed512.pdf" width="48">
+
 
 ## Conclusion
 The model appears to be too powerful for the dataset used, resulting in substantial overfitting.
